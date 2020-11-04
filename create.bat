@@ -7,7 +7,7 @@ set  GitHub_username=
 @REM path of the default folder where you want to save your projects (no quotes and space here either)
 set  projectsPATH=
 
-python initialize.py %1 %GitHub_username%
+initialize.py %1 %GitHub_username%
 cd %projectsPATH%
 mkdir %1
 cd %1
