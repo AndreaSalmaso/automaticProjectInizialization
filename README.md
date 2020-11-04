@@ -33,7 +33,7 @@ Hi there!👋 Here you can find the files that allows you to automate the creati
 
 ### How to use it   
 
-open a cmd window, navigate to the folder _automaticProjectInitialization_ and type in
+open a cmd window, wherever you want, and type in
 ```bash
 create <name-of-the-folder-you-want-to-create>
 ```
