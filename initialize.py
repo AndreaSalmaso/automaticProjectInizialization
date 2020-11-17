@@ -7,7 +7,9 @@ repoName = sys.argv[1]
 USERNAME = sys.argv[2]
 PASSWORD = ""
 
-browser = webdriver.Chrome()
+options = webdriver.ChromeOptions()
+options.add_argument("--headless")
+browser = webdriver.Chrome(options=options)
 browser.get("https://github.com/login")
 
 def create():
